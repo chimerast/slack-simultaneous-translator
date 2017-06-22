@@ -1,0 +1,23 @@
+{
+  "name": "slack-simultaneous-translator",
+  "description": "Simultaneous translation between Slack channels.",
+  "repository": "https://github.com/chimerast/slack-simultaneous-translator",
+  "env": {
+    "SLACK_API_TOKEN": {
+      "description": "Slack bot user token",
+      "value": ""
+    },
+    "GOOGLE_API_TOKEN": {
+      "description": "Google Translate API Token",
+      "value": ""
+    },
+    "JAPANESE_CHANNEL_ID": {
+      "description": "Japanese channel ID",
+      "value": ""
+    },
+    "ENGLISH_CHANNEL_ID": {
+      "description": "English channel ID",
+      "value": ""
+    }
+  }
+}

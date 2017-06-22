@@ -1,0 +1,25 @@
+{
+  "name": "slack-simultaneous-translator",
+  "version": "0.1.0",
+  "description": "Simultaneous translation between Slack channels",
+  "keywords": [
+    "slack",
+    "translator",
+    "translation"
+  ],
+  "homepage": "https://github.com/chimerast/slack-simultaneous-translator#readme",
+  "bugs": "https://github.com/chimerast/slack-simultaneous-translator/issues",
+  "license": "Apache-2.0",
+  "author": "Hideyuki TAKEUCHI <chimerast@gmail.com>",
+  "main": "bot.js",
+  "repository": "chimerast/slack-simultaneous-translator",
+  "dependencies": {
+    "@google-cloud/translate": "0.8.2",
+    "async": "2.4.1",
+    "botkit": "0.4.9",
+    "dotenv": "4.0.0"
+  },
+  "engines": {
+    "node": "8.1.2"
+  }
+}
