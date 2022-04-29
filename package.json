@@ -15,7 +15,7 @@
   "repository": "chimerast/slack-simultaneous-translator",
   "dependencies": {
     "@google-cloud/translate": "0.8.2",
-    "async": "2.4.1",
+    "async": "2.6.4",
     "botkit": "0.4.9",
     "dotenv": "4.0.0"
   },
